@@ -14,7 +14,10 @@
 - Corrected Figure 4 to A = Aleksandrov/potassium and B = NBRIP/phosphate.
 - Documented the unresolved 12,047 (Results) versus 12,044 (Figure 3) pan-genome discrepancy.
 - Replaced generic missing-data markers with explicit manuscript evidence limits and rerun instructions.
+- Added 30 potassium/phosphorus gene-trait records and 20 unique UniProt accessions from Dissertation Appendix A.
+- Added confirmed accessions for LABIM53, the 12 circular-comparison genomes and the 14 public comparative-genomics strains from Dissertation Table 1.
 
 A release may describe this repository as a workflow template and manuscript
 companion. It must disclose that historical tool outputs are unavailable and
 must not describe the reported numerical results as independently reproduced.
+
