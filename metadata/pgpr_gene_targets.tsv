@@ -1,5 +1,32 @@
-target_id	trait_category	metabolite	gene_name	uniprot_accession	source_organism	reference_evidence	expected_mechanism	validation_assay	manuscript_link	status
-PGPR-001	organic acid production	acetic acid	ackA	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	manuscript Discussion; reference 88	acetate kinase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	gene_metabolite_relation_reported_accession_unavailable
-PGPR-002	organic acid production	citric acid	gltA	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	manuscript Discussion; reference 88	citrate synthase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	gene_metabolite_relation_reported_accession_unavailable
-PGPR-003	organic acid production	malic acid	mdh	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	manuscript Discussion; reference 88	malate dehydrogenase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	gene_metabolite_relation_reported_accession_unavailable
-PGPR-004	organic acid production	oxaloacetate-derived organic acids	ppc	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	manuscript Discussion; reference 88	phosphoenolpyruvate carboxylase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	gene_metabolite_relation_reported_accession_unavailable
+target_id	trait_category	gene_name	uniprot_accession	reference_evidence	manuscript_link
+PGPR-K-001	potassium solubilisation	oxdC	O34714	Zhou et al. (2022); Meena et al. (2016); Etesami et al. (2017); Prajapati and Modi (2012); Ahmed et al. (2020); Khuong et al. (2023)	Dissertation Appendix A; Table A1
+PGPR-K-002	potassium solubilisation	bshA	P42982	Zhou et al. (2022); Meena et al. (2016); Etesami et al. (2017); Prajapati and Modi (2012)	Dissertation Appendix A; Table A1
+PGPR-K-003	potassium solubilisation	thiO	O31616	Zhou et al. (2022)	Dissertation Appendix A; Table A1
+PGPR-K-004	potassium solubilisation	dapG	Q04795	Zhou et al. (2022)	Dissertation Appendix A; Table A1
+PGPR-K-005	potassium solubilisation	speH	O34426	Zhou et al. (2022)	Dissertation Appendix A; Table A1
+PGPR-K-006	potassium solubilisation	rmlC	Q9HU21	Zhou et al. (2022); Meena et al. (2016); Etesami et al. (2017); Zhang and Kong (2014); Prajapati and Modi (2012); Bakhshandeh et al. (2017); Ahmed et al. (2020); Jiao et al. (2024); Khuong et al. (2023); Wu et al. (2023)	Dissertation Appendix A; Table A1
+PGPR-K-007	potassium solubilisation	estF	P22862	Zhou et al. (2022)	Dissertation Appendix A; Table A1
+PGPR-K-008	potassium solubilisation	gabT	P94427	Zhou et al. (2022); Meena et al. (2016); Etesami et al. (2017); Prajapati and Modi (2012); Bakhshandeh et al. (2017)	Dissertation Appendix A; Table A1
+PGPR-K-009	potassium solubilisation	yvgN	O32210	Zhou et al. (2022); Meena et al. (2016); Etesami et al. (2017); Jiao et al. (2024); Khuong et al. (2023)	Dissertation Appendix A; Table A1
+PGPR-K-010	potassium solubilisation	scmK	P54950	Zhou et al. (2022); Meena et al. (2016); Etesami et al. (2017); Zhang and Kong (2014); Prajapati and Modi (2012); Bakhshandeh et al. (2017); Ahmed et al. (2020); Jiao et al. (2024); Wu et al. (2023)	Dissertation Appendix A; Table A1
+PGPR-K-011	potassium solubilisation	ptxS	A0A167V873	Meena et al. (2016); Etesami et al. (2017); Bakhshandeh et al. (2017)	Dissertation Appendix A; Table A1
+PGPR-K-012	potassium solubilisation	LACPL	F9UST3	Meena et al. (2016); Etesami et al. (2017)	Dissertation Appendix A; Table A1
+PGPR-K-013	potassium solubilisation	ydfG	P39831	Meena et al. (2016); Etesami et al. (2017)	Dissertation Appendix A; Table A1
+PGPR-K-014	potassium solubilisation	FUM1	P08417	Meena et al. (2016); Etesami et al. (2017); Jiao et al. (2024)	Dissertation Appendix A; Table A1
+PGPR-K-015	potassium solubilisation	iaaspH	O50173	Meena et al. (2016); Etesami et al. (2017); Bakhshandeh et al. (2017); Saha et al. (2016); Dong et al. (2019); Khuong et al. (2023); Rallos et al. (2021)	Dissertation Appendix A; Table A1
+PGPR-K-016	potassium solubilisation	HEM1	P09950	Khuong et al. (2023)	Dissertation Appendix A; Table A1
+PGPR-P-001	phosphorus solubilisation	oxdC	O34714	Billah et al. (2019); Rawat et al. (2020); Chawngthu et al. (2020); Rfaki et al. (2020); Nacoon et al. (2020); Li et al. (2016); Mendes et al. (2013); Gulati et al. (2010); Yi et al. (2008)	Dissertation Appendix A; Table A1
+PGPR-P-002	phosphorus solubilisation	bshA	P42982	Zhou et al. (2022); Suleman et al. (2018); Chawngthu et al. (2020); Bononi et al. (2020); Nacoon et al. (2020); Li et al. (2016); Vyas and Gulati (2009)	Dissertation Appendix A; Table A1
+PGPR-P-003	phosphorus solubilisation	thiO	O31616	Zhou et al. (2022)	Dissertation Appendix A; Table A1
+PGPR-P-004	phosphorus solubilisation	dapG	Q04795	Zhou et al. (2022)	Dissertation Appendix A; Table A1
+PGPR-P-005	phosphorus solubilisation	speH	O34426	Zhou et al. (2022)	Dissertation Appendix A; Table A1
+PGPR-P-006	phosphorus solubilisation	rmlC	Q9HU21	Billah et al. (2019); Rawat et al. (2020); Chawngthu et al. (2020); Nacoon et al. (2020); Li et al. (2016)	Dissertation Appendix A; Table A1
+PGPR-P-007	phosphorus solubilisation	estF	P22862	Zhou et al. (2022); Suleman et al. (2018); Chawngthu et al. (2020); Rfaki et al. (2020); Nacoon et al. (2020); Do Carmo et al. (2020); Teng et al. (2019); Li et al. (2016); Seervino et al. (2010)	Dissertation Appendix A; Table A1
+PGPR-P-008	phosphorus solubilisation	gabT	P94427	Rawat et al. (2020); Rfaki et al. (2020); Teng et al. (2019); Seervino et al. (2010)	Dissertation Appendix A; Table A1
+PGPR-P-009	phosphorus solubilisation	Car	B2HN69	Rawat et al. (2020)	Dissertation Appendix A; Table A1
+PGPR-P-010	phosphorus solubilisation	scmK	P54950	Zhou et al. (2022); Suleman et al. (2018); Rawat et al. (2020); Bononi et al. (2020); Rfaki et al. (2020); Do Carmo et al. (2020); Teng et al. (2019); Li et al. (2016); Mendes et al. (2013); Vyas and Gulati (2009); Seervino et al. (2010); Yi et al. (2008); Chen et al. (2006)	Dissertation Appendix A; Table A1
+PGPR-P-011	phosphorus solubilisation	ydfG	P39831	Rawat et al. (2020)	Dissertation Appendix A; Table A1
+PGPR-P-012	phosphorus solubilisation	dkgA	Q46857	Rawat et al. (2020); Vyas and Gulati (2009); Trivedi and Sa (2008)	Dissertation Appendix A; Table A1
+PGPR-P-013	phosphorus solubilisation	Icd	P08200	Chawngthu et al. (2020); Teng et al. (2019); Li et al. (2016); Gulati et al. (2010)	Dissertation Appendix A; Table A1
+PGPR-P-014	phosphorus solubilisation	bioA	P12995	Bononi et al. (2020); Rfaki et al. (2020); Seervino et al. (2010)	Dissertation Appendix A; Table A1
+
