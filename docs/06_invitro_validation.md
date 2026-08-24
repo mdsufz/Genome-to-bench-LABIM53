@@ -25,8 +25,8 @@
 - **Potassium:** Aleksandrov solid medium (Aleksandrov, 1967).
 - Incubation: **28 °C for one month**, **five plates per treatment, in triplicate**.
 - Score: halo formation (both) and medium colour change (phosphate).
-- **Figure 4A:** NBRIP medium, phosphate solubilisation.
-- **Figure 4B:** Aleksandrov medium, potassium solubilisation.
+- **Figure 4A:** Aleksandrov medium, potassium solubilisation.
+- **Figure 4B:** NBRIP medium, phosphate solubilisation.
 - Use this panel mapping without reversal in the manuscript text, legend, figure labels and `figures/manifest.tsv`.
 
 ## Interpretation

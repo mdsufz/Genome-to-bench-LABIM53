@@ -26,16 +26,25 @@ roary -e --mafft -p <threads> \
   results/prokka/*/*.gff
 ```
 
-**Reported outcome (15 genomes = 14 public + LABIM53):** 12,047 gene clusters —
-3,513 core, 3,558 accessory, 4,976 strain-specific.
+**Results-text outcome (15 genomes = 14 public + LABIM53):** 12,047 gene
+clusters - 3,513 core, 3,558 accessory and 4,976 strain-specific. These
+components sum to 12,047.
 
-The three reported categories sum to 12,047, so this is the single value used throughout the repository. It remains **pending confirmation against the original Roary output**, which is not version-controlled. After restoring `results/roary/gene_presence_absence.csv`, run:
+The supplied Figure 3A and its legend instead report **12,044** clusters. The
+original Roary output is unavailable, so the three-cluster discrepancy cannot
+be resolved from the supplied materials. The repository preserves the final
+figure unchanged and records both values in `metadata/reported_results.yaml`.
+
+The command below is an optional future consistency check if a regenerated or
+historical `gene_presence_absence.csv` becomes available; the original output
+is not required to use this workflow template:
 
 ```bash
 python scripts/validate_pangenome_counts.py
 ```
 
-The gene presence/absence matrix (with the accompanying tree) is **Figure 3A**.
+The supplied gene presence/absence matrix (with the accompanying tree) is
+version-controlled as `figures/Figure_3_pangenome_and_COG.png`.
 To render the tree + matrix figure, Roary ships `roary_plots.py`:
 
 ```bash
