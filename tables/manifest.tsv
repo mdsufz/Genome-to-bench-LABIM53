@@ -1,4 +1,3 @@
-table	description	final_file	source_output	validation	status
-1	PlasFlow per-scaffold predicted classifications	TO_CONFIRM	TO_CONFIRM	36 submitted rows; class counts verified against source	asset_missing
-2	PGPR target-gene tBLASTn hits	TO_CONFIRM	results/tblastn_LABIM53.tsv	linked to metadata/pgpr_gene_targets.tsv	asset_missing
-
+table	description	final_file	source_evidence	validation	status
+1	PlasFlow per-contig predicted classifications	tables/Table_1_PlasFlow_classifications.tsv	supplied manuscript v9 native table	34 rows; 4 chromosome-labelled and 30 plasmid-labelled predictions; 5,669,186 bp represented versus 5,671,654 bp reported for 36 scaffolds	manuscript_table_available_discrepancy_documented
+2	PGPR target-gene tBLASTn hits	not_available	referenced in supplied manuscript but no native table or embedded asset was present	Use metadata/pgpr_gene_targets.tsv as the documented schema and rerun instructions in docs/05_gene_mining.md	instruction_only_source_table_unavailable
