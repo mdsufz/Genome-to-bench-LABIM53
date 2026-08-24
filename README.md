@@ -54,7 +54,7 @@ Raw reads (Illumina MiSeq)
    In vitro validation (bench)
         │  IAA: TSB + L-tryptophan → Salkowski colourimetry
         │  Organic acids: HPLC (Aminex HPX-87X)
-        │  Solubilisation: NBRIP (P; panel A) & Aleksandrov (K; panel B) → Fig 4
+        │  Solubilisation: Aleksandrov (K; panel A) & NBRIP (P; panel B) → Fig 4
         ▼
    Candidate biofertilizer strain
 ```
@@ -130,7 +130,7 @@ evidence inventory, discrepancies and suitable release wording.
 - **Pan-genome:** the Results text reports **12,047** clusters (3,513 core + 3,558 accessory + 4,976 strain-specific), whereas the supplied Figure 3A and its legend report **12,044**. The original Roary output is unavailable, so the three-cluster discrepancy is documented rather than silently resolved.
 - **PlasFlow:** the extracted manuscript Table 1 contains 34 predicted classifications (4 chromosome-labelled and 30 plasmid-labelled), while the Results text reports 36 scaffolds (5 + 31). These are classifier labels, not physical replicon counts; the two-row discrepancy is documented in `tables/README.md`.
 - **dDDH:** digital DNA-DNA hybridisation is not part of the documented or archived workflow. No dDDH result should be claimed from this repository; remove such a claim from the manuscript unless the missing method and outputs are supplied.
-- **Accession and target metadata:** known identifiers and figure-visible taxa are recorded under `metadata/`. Fields labelled `not_reported_in_manuscript` are transparent evidence limits, not values that should be guessed.
+- **Accession and target metadata:** confirmed genome and UniProt identifiers recovered from the dissertation are recorded under `metadata/` with their evidence sources.
 
 ---
 
@@ -164,3 +164,4 @@ If you use this workflow, please cite the article (see `CITATION.cff`) and the i
 ## License
 
 Released under the MIT License (see `LICENSE`).
+
