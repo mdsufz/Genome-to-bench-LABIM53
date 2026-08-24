@@ -1,26 +1,34 @@
 pangenome:
-  gene_clusters: 12047
+  results_text_gene_clusters: 12047
+  figure_3_label_gene_clusters: 12044
   core: 3513
   accessory: 3558
   strain_specific: 4976
-  validation: pending_original_roary_output
+  component_sum: 12047
+  validation: unresolved_three_cluster_discrepancy_source_output_unavailable
 
 assembly:
-  scaffolds: 36
-  total_bp: 5671654
+  results_text_scaffolds: 36
+  results_text_total_bp: 5671654
   largest_scaffold_bp: 5190595
   l50: 1
   gc_percent: 35.2
-  validation: reported_in_documentation
+  manuscript_table_1_rows: 34
+  manuscript_table_1_total_bp: 5669186
+  difference_rows: 2
+  difference_bp: 2468
+  validation: table_1_is_incomplete_relative_to_results_text
 
 plasflow:
-  submitted_sequences: 36
-  predicted_chromosome_count: null
-  predicted_plasmid_count: null
-  unclassified_count: null
-  validation: pending_table_1_and_original_plasflow_output
+  results_text_predicted_chromosome_count: 5
+  results_text_predicted_plasmid_count: 31
+  manuscript_table_predicted_chromosome_count: 4
+  manuscript_table_predicted_plasmid_count: 30
+  manuscript_table_rows: 34
+  interpretation: classifier_predictions_not_physical_replicon_counts
+  validation: discrepancy_documented_original_output_unavailable
 
 dddh:
-  included_in_workflow: false
-  reason: no archived method or output supplied
-
+  included_in_supported_workflow: false
+  manuscript_discussion_mentions_dddh: true
+  reason: no method_results_or_output_supplied

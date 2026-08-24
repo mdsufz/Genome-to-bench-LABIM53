@@ -1,6 +1,5 @@
 target_id	trait_category	metabolite	gene_name	uniprot_accession	source_organism	reference_evidence	expected_mechanism	validation_assay	manuscript_link	status
-PGPR-001	organic acid production	acetic acid	ackA	TO_CONFIRM	TO_CONFIRM	TO_CONFIRM	acetate kinase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	TO_CONFIRM
-PGPR-002	organic acid production	citric acid	gltA	TO_CONFIRM	TO_CONFIRM	TO_CONFIRM	citrate synthase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	TO_CONFIRM
-PGPR-003	organic acid production	malic acid	mdh	TO_CONFIRM	TO_CONFIRM	TO_CONFIRM	malate dehydrogenase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	TO_CONFIRM
-PGPR-004	organic acid production	oxaloacetate-derived acids	ppc	TO_CONFIRM	TO_CONFIRM	TO_CONFIRM	phosphoenolpyruvate carboxylase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	TO_CONFIRM
-
+PGPR-001	organic acid production	acetic acid	ackA	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	manuscript Discussion; reference 88	acetate kinase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	gene_metabolite_relation_reported_accession_unavailable
+PGPR-002	organic acid production	citric acid	gltA	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	manuscript Discussion; reference 88	citrate synthase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	gene_metabolite_relation_reported_accession_unavailable
+PGPR-003	organic acid production	malic acid	mdh	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	manuscript Discussion; reference 88	malate dehydrogenase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	gene_metabolite_relation_reported_accession_unavailable
+PGPR-004	organic acid production	oxaloacetate-derived organic acids	ppc	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	manuscript Discussion; reference 88	phosphoenolpyruvate carboxylase pathway	HPLC and nutrient-solubilisation assays	Table 2; Figure 4	gene_metabolite_relation_reported_accession_unavailable
