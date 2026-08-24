@@ -120,14 +120,17 @@ genome-to-bench-LABIM53/
 | Sequence retrieval | UniProt | — | web | UniProt Consortium, 2019 |
 | Gene confirmation | tBLASTn (NCBI) | — | web/CLI | Gertz et al., 2006 |
 
-> **Note on reproducibility scope.** The article's Methods section names the tools, versions and key parameters, but does not publish full command lines for every step. The scripts in `scripts/` are therefore *command templates* that implement the documented workflow through each tool's standard interface and the parameters recorded in `config/config.yaml`. Web and GUI steps (MEGA, PhyloSuite, Proksee, Galaxy/PlasFlow, iTOL, FigTree and CLC) are documented in `docs/`. Verify every template against the archived output before citing it as the exact procedure used in the article.
+> **Note on reproducibility scope.** The article's Methods section names the tools, versions and key parameters, but does not publish full command lines for every step. The scripts in `scripts/` are therefore *command templates* that implement the documented workflow through each tool's standard interface and the parameters recorded in `config/config.yaml`. Web and GUI steps (MEGA, PhyloSuite, Proksee, Galaxy/PlasFlow, iTOL, FigTree and CLC) are documented in `docs/`. The historical run outputs are not archived here; supplied manuscript assets and known limitations are recorded under `figures/`, `tables/` and `metadata/`.
 
 ## Result verification status
 
-- **Pan-genome:** the repository consistently reports **12,047** clusters (3,513 core + 3,558 accessory + 4,976 strain-specific). This arithmetic is internally consistent, but the Roary `gene_presence_absence.csv` is not tracked; run `scripts/validate_pangenome_counts.py` against the archived output before submission.
-- **PlasFlow:** its labels are computational predictions, not proof that the assembly contains a stated number of physical chromosomes or plasmids. The repository therefore reports 36 submitted scaffolds without converting prediction labels into definitive structure counts.
+See [`EVIDENCE_LIMITATIONS.md`](EVIDENCE_LIMITATIONS.md) for the consolidated
+evidence inventory, discrepancies and suitable release wording.
+
+- **Pan-genome:** the Results text reports **12,047** clusters (3,513 core + 3,558 accessory + 4,976 strain-specific), whereas the supplied Figure 3A and its legend report **12,044**. The original Roary output is unavailable, so the three-cluster discrepancy is documented rather than silently resolved.
+- **PlasFlow:** the extracted manuscript Table 1 contains 34 predicted classifications (4 chromosome-labelled and 30 plasmid-labelled), while the Results text reports 36 scaffolds (5 + 31). These are classifier labels, not physical replicon counts; the two-row discrepancy is documented in `tables/README.md`.
 - **dDDH:** digital DNA-DNA hybridisation is not part of the documented or archived workflow. No dDDH result should be claimed from this repository; remove such a claim from the manuscript unless the missing method and outputs are supplied.
-- **Accession and target metadata:** files under `metadata/` define the required schema. Values marked `TO_CONFIRM` must be replaced from the original analysis records before publication.
+- **Accession and target metadata:** known identifiers and figure-visible taxa are recorded under `metadata/`. Fields labelled `not_reported_in_manuscript` are transparent evidence limits, not values that should be guessed.
 
 ---
 

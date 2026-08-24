@@ -9,7 +9,12 @@
 - Added accession, PGPR-target, figure and table provenance schemas.
 - Aligned the reproducibility claim with the repository's command-template scope.
 - Corrected the public licence statement and expanded citation metadata.
+- Added the five supplied manuscript figure assets with checksummed provenance.
+- Extracted manuscript Table 1 and documented its two-row discrepancy with the Results text.
+- Corrected Figure 4 to A = Aleksandrov/potassium and B = NBRIP/phosphate.
+- Documented the unresolved 12,047 (Results) versus 12,044 (Figure 3) pan-genome discrepancy.
+- Replaced generic missing-data markers with explicit manuscript evidence limits and rerun instructions.
 
-Create the GitHub release only after all `TO_CONFIRM` and `asset_missing` markers
-are resolved and the archived outputs pass validation.
-
+A release may describe this repository as a workflow template and manuscript
+companion. It must disclose that historical tool outputs are unavailable and
+must not describe the reported numerical results as independently reproduced.
