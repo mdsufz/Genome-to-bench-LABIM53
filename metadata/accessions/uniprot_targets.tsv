@@ -1,5 +1,22 @@
-target_id	gene_name	uniprot_accession	source_organism	sequence_file	status
-PGPR-001	ackA	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	data/mined_genes/pgpr_targets.faa	gene_source_context_reported_accession_unavailable
-PGPR-002	gltA	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	data/mined_genes/pgpr_targets.faa	gene_source_context_reported_accession_unavailable
-PGPR-003	mdh	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	data/mined_genes/pgpr_targets.faa	gene_source_context_reported_accession_unavailable
-PGPR-004	ppc	not_reported_in_manuscript	Bacillus aryabhattai SK1-7	data/mined_genes/pgpr_targets.faa	gene_source_context_reported_accession_unavailable
+target_id	gene_name	uniprot_accession	trait_category	manuscript_link
+UP-001	oxdC	O34714	potassium and phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-002	bshA	P42982	potassium and phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-003	thiO	O31616	potassium and phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-004	dapG	Q04795	potassium and phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-005	speH	O34426	potassium and phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-006	rmlC	Q9HU21	potassium and phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-007	estF	P22862	potassium and phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-008	gabT	P94427	potassium and phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-009	yvgN	O32210	potassium solubilisation	Dissertation Appendix A; Table A1
+UP-010	scmK	P54950	potassium and phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-011	ptxS	A0A167V873	potassium solubilisation	Dissertation Appendix A; Table A1
+UP-012	LACPL	F9UST3	potassium solubilisation	Dissertation Appendix A; Table A1
+UP-013	ydfG	P39831	potassium and phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-014	FUM1	P08417	potassium solubilisation	Dissertation Appendix A; Table A1
+UP-015	iaaspH	O50173	potassium solubilisation	Dissertation Appendix A; Table A1
+UP-016	HEM1	P09950	potassium solubilisation	Dissertation Appendix A; Table A1
+UP-017	Car	B2HN69	phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-018	dkgA	Q46857	phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-019	Icd	P08200	phosphorus solubilisation	Dissertation Appendix A; Table A1
+UP-020	bioA	P12995	phosphorus solubilisation	Dissertation Appendix A; Table A1
+
