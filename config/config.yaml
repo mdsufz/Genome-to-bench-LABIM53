@@ -38,8 +38,8 @@ phylogeny:
 
 pangenome:
   reported_gene_clusters: 12047
+  figure_3_label_gene_clusters: 12044
   reported_core: 3513
   reported_accessory: 3558
   reported_strain_specific: 4976
   roary_output: results/roary/gene_presence_absence.csv
-
