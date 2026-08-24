@@ -14,8 +14,8 @@ GitHub action.
 | PlasFlow wording and counts | Extracted the native manuscript Table 1 (34 rows: 4 chromosome-labelled + 30 plasmid-labelled predictions) and documented its difference from the Results text (36 rows: 5 + 31). | Recoverable evidence complete; two-row discrepancy unresolved |
 | Pan-genome count | Recorded 12,047 from the Results/component sum and 12,044 from Figure 3A/legend without altering the supplied figure. | Three-cluster discrepancy documented; original Roary output unavailable |
 | dDDH inconsistency | Explicitly excluded dDDH from the supported workflow because no method or output was supplied. | Repository complete; unsupported manuscript claim must be removed |
-| Gene-mining metadata | Added the target/evidence/assay schema and populated relationships recoverable from the manuscript. UniProt accessions not reported by the manuscript are labelled accordingly. | Recoverable evidence complete; rerun instructions retained |
-| Accession lists | Added LABIM53 BioProject/GenBank information, the 12 Figure 1 strain names, Figure 2A taxa and reported phylogeny clade members. Unreported accessions are explicitly labelled. | Recoverable evidence complete |
+| Gene-mining metadata | Added 30 gene-trait records for potassium and phosphorus solubilisation, covering 20 unique UniProt targets and their cited evidence from Dissertation Appendix A, Table A1. | Complete |
+| Accession lists | Added the confirmed accessions for LABIM53, the 12 Figure 1 comparison genomes, the 14 public comparative-genomics strains and accession-supported ANI/phylogeny taxa. | Complete |
 | Figure/table provenance | Added the five supplied image assets, checksummed manifests and the recoverable PlasFlow table. Table 2 was not present as a native table or embedded asset, so its schema and rerun instructions are retained. | Supplied assets complete; historical source outputs unavailable |
 | Configuration layer | Added `config/config.yaml`, `config/samples.tsv` and shared readers; removed focal-sample hard-coding from stage scripts. | Complete |
 | Repository polish | Applied British English, corrected the MIT statement, expanded `CITATION.cff`, and applied repository description/topics. Release wording must disclose the historical-output limitation. | Complete except release publication |
@@ -26,3 +26,4 @@ reported in the manuscript, visible in a supplied asset, absent from the
 manuscript, or dependent on an unavailable historical output. A public release
 must retain those distinctions and must not claim independent reproduction of
 the historical analyses.
+
