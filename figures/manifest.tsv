@@ -1,10 +1,10 @@
-figure	panel	description	final_file	source_output	software	parameters	status
-1	all	Circular comparison of LABIM53 with 12 genomes	TO_CONFIRM	TO_CONFIRM	Proksee/CGView	TO_CONFIRM	asset_missing
-2	A	ANI heatmap	TO_CONFIRM	results/aniclustermap	ANIclustermap	config/config.yaml	asset_missing
-2	B	Bayesian concatenated 16S + gyrB phylogeny	TO_CONFIRM	results/trees/16S_gyrB.concat.nex	MrBayes	config/config.yaml	asset_missing
-2	C	Maximum-likelihood concatenated 16S + gyrB phylogeny	TO_CONFIRM	results/markers/16S_gyrB.concat.fasta	IQ-TREE	config/config.yaml	asset_missing
-3	A	Pan-genome presence/absence matrix	TO_CONFIRM	results/roary/gene_presence_absence.csv	Roary	config/config.yaml	asset_missing
-3	B	COG functional categories	TO_CONFIRM	results/cogclassifier_LABIM53	COGclassifier	config/config.yaml	asset_missing
-4	A	NBRIP medium; phosphate solubilisation	TO_CONFIRM	bench assay image	image acquisition TO_CONFIRM	NBRIP	asset_missing
-4	B	Aleksandrov medium; potassium solubilisation	TO_CONFIRM	bench assay image	image acquisition TO_CONFIRM	Aleksandrov	asset_missing
-
+figure	panel	description	final_file	source_evidence	software_or_method	parameters_or_conditions	sha256	status
+1	all	Circular comparison of LABIM53 with 12 B. nitratireducens genomes	figures/Figure_1_circular_genome_comparison.png	supplied manuscript figure and Figure 1 legend	Proksee/CGView	LABIM53 reference; BLASTn comparison rings	4B81A52A04B8254E40E96E3FE315CCCE1913044E92CE8AC09F382E949277DE2C	manuscript_asset_supplied_source_output_unavailable
+2	A	Whole-genome ANI heatmap	figures/Figure_2_taxonomy_resolution.png	supplied manuscript figure and Figure 2 legend	ANIclustermap/OrthoANI	values printed in panel	4387A59783BB9543BA31ED8E8BE114A56E8E4782630FC58F22DC8516A80D0583	manuscript_asset_supplied_source_output_unavailable
+2	B	Bayesian phylogeny based on 16S rRNA and gyrB	figures/Figure_2_taxonomy_resolution.png	supplied manuscript figure and Figure 2 legend	MrBayes	posterior probabilities shown in panel	4387A59783BB9543BA31ED8E8BE114A56E8E4782630FC58F22DC8516A80D0583	manuscript_asset_supplied_source_alignment_unavailable
+2	C	Maximum-likelihood phylogeny based on 16S rRNA and gyrB	figures/Figure_2_taxonomy_resolution.png	supplied manuscript figure and Figure 2 legend	IQ-TREE	bootstrap support shown in panel	4387A59783BB9543BA31ED8E8BE114A56E8E4782630FC58F22DC8516A80D0583	manuscript_asset_supplied_source_alignment_unavailable
+3	A	Pan-genome presence/absence matrix	figures/Figure_3_pangenome_and_COG.png	supplied manuscript figure and Figure 3 legend	Roary	panel label reports 12,044 clusters	44D13A95F9E7BBD61E54A487008C2B7CD3E608894971A8E6287B47617A5A54DB	manuscript_asset_supplied_count_discrepancy_documented
+3	B	COG functional categories for LABIM53	figures/Figure_3_pangenome_and_COG.png	supplied manuscript figure and Figure 3 legend	COGclassifier	category counts plotted in panel	44D13A95F9E7BBD61E54A487008C2B7CD3E608894971A8E6287B47617A5A54DB	manuscript_asset_supplied_source_output_unavailable
+4	A	Aleksandrov medium; potassium solubilisation	figures/Figure_4_nutrient_solubilisation.png	supplied manuscript figure and Figure 4 legend	bench photography	28 C for one month; duplicate inoculation locations	1C4FAFFBA6C43C2B08691715C3BE8FB52EC2BF3DDD2E60ABD0E7E3C81EBB831D	manuscript_asset_supplied
+4	B	NBRIP medium; phosphate solubilisation	figures/Figure_4_nutrient_solubilisation.png	supplied manuscript figure and Figure 4 legend	bench photography	28 C for one month; duplicate inoculation locations	1C4FAFFBA6C43C2B08691715C3BE8FB52EC2BF3DDD2E60ABD0E7E3C81EBB831D	manuscript_asset_supplied
+graphical_abstract	all	Conceptual genome-to-bench workflow	figures/Graphical_abstract_genome_to_bench.png	user-supplied graphical abstract	conceptual illustration	isolation and identification; gene mining; experimental validation	1A8D1762CE489D0412B4202259E36216359FBD85A0CC232917BC73F5935BFDBB	manuscript_asset_supplied
