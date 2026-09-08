@@ -1,7 +1,5 @@
 # data/
 
-Inputs are **not** version-controlled (see `.gitignore`). Recreate this layout:
-
 ```
 data/
 ├── reads/                     # paired-end Illumina reads (BioProject PRJNA1114765)
@@ -17,5 +15,3 @@ data/
 └── mined_genes/               # PGPR target proteins from UniProt
     └── pgpr_targets.faa
 ```
-
-Genomes are downloaded from GenBank (Sayers et al., 2020). The version-controlled accession manifests under `metadata/accessions/` are the traceability record; do not rely on filenames alone.
