@@ -5,7 +5,7 @@ Reproducible, step-by-step pipeline accompanying the article:
 > **An integrated genome-to-bench workflow for identifying candidate biofertilizer strains: application to *Bacillus nitratireducens* LABIM53**
 > Rodrigues M.V.S., Garcia A.B., Gouveia P.O., Oliveira J.P., Nicoletto M.L.A., Noriler S., Oliveira Junior A.G., Rocha U.N., Bressan G.M.
 
-This repository provides workflow documentation and reusable command templates for the analyses used to go from raw Illumina reads to a functionally validated plant growth-promoting rhizobacterium (PGPR) candidate. It does not claim to preserve the exact command history of the original analysis; parameters marked for verification must be reconciled with the manuscript and archived outputs before citation.
+This repository provides workflow documentation and reusable command templates for the analyses used to go from raw Illumina reads to a functionally validated plant growth-promoting rhizobacterium (PGPR) candidate. It does not claim to preserve the exact command history of the original analysis.
 
 ---
 
