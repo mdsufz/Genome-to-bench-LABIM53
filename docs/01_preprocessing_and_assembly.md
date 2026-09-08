@@ -28,7 +28,3 @@ spades.py \
   -o results/spades_LABIM53 \
   --careful -t <threads> -m <memory_GB>
 ```
-
-**Reported outcome:** the initial SPAdes assembly comprised **425 contigs** (later refined — see stage 3).
-
-The primary output is `results/spades_LABIM53/contigs.fasta`, which is the input to taxonomic identification (stage 2) and refinement (stage 3). The runnable script obtains these paths from `config/config.yaml` and `config/samples.tsv`.
