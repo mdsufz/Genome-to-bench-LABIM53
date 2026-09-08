@@ -1,8 +1,0 @@
-analysis	taxon_id	strain	assembly_accession	included	evidence_source
-ANI	LABIM53	Bacillus nitratireducens LABIM53	JBLFHU000000000	true	Dissertation Table 1; manuscript Figure 2A
-ANI	B_nitratireducens_ATCC6463	Bacillus nitratireducens ATCC6463	NZ_VKPW00000000	true	Dissertation Table 1; manuscript Figure 2A
-ANI	B_nitratireducens_BM02	Bacillus nitratireducens BM02	NZ_CP047366.1	true	Dissertation Table 1; manuscript Figure 2A
-phylogeny	LABIM53	Bacillus nitratireducens LABIM53	JBLFHU000000000	true	Dissertation Table 1; manuscript Figure 2B-C
-phylogeny	B_nitratireducens_ATCC6463	Bacillus nitratireducens ATCC6463	NZ_VKPW00000000	true	Dissertation Table 1; manuscript Figure 2B-C
-phylogeny	B_nitratireducens_BM02	Bacillus nitratireducens BM02	NZ_CP047366.1	true	Dissertation Table 1; manuscript Figure 2B-C
-
