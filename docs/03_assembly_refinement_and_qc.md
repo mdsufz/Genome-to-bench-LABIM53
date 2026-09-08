@@ -41,7 +41,7 @@ Remaining gaps were closed manually.
 - Run **PlasFlow** on the Galaxy web platform (https://usegalaxy.org) with the final contigs.
 - Output: a per-scaffold **predicted** class (chromosome-associated, plasmid-associated or unclassified) and taxonomic signal (Firmicutes, Proteobacteria or unclassified) → **Table 1**.
 - Treat these labels as classifier predictions, not as confirmation of replicon structure.
-- `The Results text reports 36 scaffolds (5 chromosome-labelled and 31 plasmid-labelled; 5,671,654 bp), so two rows totalling 2,468 bp are absent from the manuscript table.
+- The Results text reports 36 scaffolds (5 chromosome-labelled and 31 plasmid-labelled; 5,671,654 bp)
 
 ## 3.6 Quality & completeness — QUAST + BUSCO v5.7.1
 
