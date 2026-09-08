@@ -1,4 +1,4 @@
-sample_id	strain	assembly_accession	
+sample_id	strain assembly_accession
 LABIM53	Bacillus nitratireducens LABIM53	JBLFHU000000000
 DE0281	Bacillus nitratireducens DE0281	NZ_VEKU00000000.1
 DE0018	Bacillus nitratireducens DE0018	NZ_VEMS00000000.1
@@ -14,4 +14,3 @@ DE0336	Bacillus nitratireducens DE0336	NZ_VEKG00000000.1
 N4150	Bacillus nitratireducens N4150	NZ_CP093844.1
 BD-32	Bacillus nitratireducens BD-32	NZ_JARLYH000000000.1
 BM02	Bacillus nitratireducens BM02	NZ_CP047366.1
-
