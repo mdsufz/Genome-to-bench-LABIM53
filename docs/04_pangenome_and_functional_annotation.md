@@ -30,11 +30,6 @@ roary -e --mafft -p <threads> \
 clusters - 3,513 core, 3,558 accessory and 4,976 strain-specific. These
 components sum to 12,044.
 
-The supplied Figure 3A and its legend instead report **12,044** clusters. The
-original Roary output is unavailable, so the three-cluster discrepancy cannot
-be resolved from the supplied materials. The repository preserves the final
-figure unchanged and records both values in `metadata/reported_results.yaml`.
-
 The command below is an optional future consistency check if a regenerated or
 historical `gene_presence_absence.csv` becomes available; the original output
 is not required to use this workflow template:
