@@ -1,8 +1,7 @@
 # Manuscript tables and provenance
 
 This directory contains manuscript tables that could be recovered from the
-supplied article. Original web-service and command-line output files were not
-available; they are not claimed to be archived here.
+supplied article.
 
 ## Table 1 - PlasFlow classifications
 
