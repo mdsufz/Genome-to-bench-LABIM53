@@ -26,9 +26,9 @@ roary -e --mafft -p <threads> \
   results/prokka/*/*.gff
 ```
 
-**Results-text outcome (15 genomes = 14 public + LABIM53):** 12,047 gene
+**Results-text outcome (15 genomes = 14 public + LABIM53):** 12,044 gene
 clusters - 3,513 core, 3,558 accessory and 4,976 strain-specific. These
-components sum to 12,047.
+components sum to 12,044.
 
 The supplied Figure 3A and its legend instead report **12,044** clusters. The
 original Roary output is unavailable, so the three-cluster discrepancy cannot
