@@ -30,6 +30,4 @@ tblastn -query data/mined_genes/pgpr_targets.faa \
   -out results/tblastn_LABIM53.tsv
 ```
 
-Report **coverage** and **identity** per gene → **Table 2** (genes assigned to K-solubilisation and K+P-solubilisation pathways: IAA, citric, oxalic, 2-ketogluconic, lactic, malonic, acetic, gluconic, succinic acids, etc.). Link each result row back to the curated target identifier.
-
 These hits define which bench assays to run in stage 6.
