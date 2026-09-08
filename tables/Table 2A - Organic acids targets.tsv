@@ -1,0 +1,25 @@
+Acid	Coverage	Identity	Expected action
+IAA	99%	24.88%	Potassium solubilisation
+5-aminolevulinic	69%	31.37%	Potassium solubilisation
+Glycine	89%	32.74%	Potassium solubilisation
+Aspartic	100%	67.08%	Potassium solubilisation
+Pyruvic	100%	79.53%	Potassium solubilisation
+Tartatic	93%	48.54%	Potassium solubilisation
+Citric	97%	32.57%	Potassium and phosphate solubilisation
+Oxalic	31%	25.38%	Potassium and phosphate solubilisation
+2-ketoglucconic	95%	28.53%	Potassium and phosphate solubilisation
+Lactic	97%	38.96%	Potassium and phosphate solubilisation
+Malonic	93%	36.17%	Potassium and phosphate solubilisation
+Acetic	100%	33.94%	Potassium and phosphate solubilisation
+Gluconic	99%	73.72%	Potassium and phosphate solubilisation
+Succinic	97%	64.79%	Potassium and phosphate solubilisation
+Fumaric	95%	58.13%	Potassium and phosphate solubilisation
+Malic	98%	61.46%	Potassium and phosphate solubilisation
+Ascorbic	98%	49.80%	Phosphate solubilisation
+Carboxylic	56%	21.58%	Phosphate solubilisation
+Formic	31%	25.38%	Phosphate solubilisation
+Ascorbic	98%	49.80%	Phosphate solubilisation
+Isocitric	99%	61.83%	Phosphate solubilisation
+Glucuronic	40%	26.32%	Phosphate solubilisation
+Propionic	99%	34.38%	Phosphate solubilisation
+Butyric	98%	34.40%	Phosphate solubilisation
