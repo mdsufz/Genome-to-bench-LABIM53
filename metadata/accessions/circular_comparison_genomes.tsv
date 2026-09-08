@@ -1,14 +1,14 @@
-ring_order	strain	assembly_accession	source_database	evidence_source
-1	Bacillus nitratireducens DE0336	NZ_VEKG00000000.1	GenBank	Dissertation Table 1
-2	Bacillus nitratireducens DE0363	NZ_VEKC00000000.1	GenBank	Dissertation Table 1
-3	Bacillus nitratireducens DE0364	NZ_VEKB00000000.1	GenBank	Dissertation Table 1
-4	Bacillus nitratireducens HD-50	NZ_JARLXK000000000.1	GenBank	Dissertation Table 1
-5	Bacillus nitratireducens JJ1048	NZ_JBANCC000000000.1	GenBank	Dissertation Table 1
-6	Bacillus nitratireducens N4150	NZ_CP093844.1	GenBank	Dissertation Table 1
-7	Bacillus nitratireducens NRS-319	NZ_JARTIK000000000.1	GenBank	Dissertation Table 1
-8	Bacillus nitratireducens 112MF	NZ_FNRB00000000.1	GenBank	Dissertation Table 1
-9	Bacillus nitratireducens 4049	NZ_JAUMJO000000000.1	GenBank	Dissertation Table 1
-10	Bacillus nitratireducens ATCC6463	NZ_VKPW00000000	GenBank	Dissertation Table 1
-11	Bacillus nitratireducens BD-32	NZ_JARLYH000000000.1	GenBank	Dissertation Table 1
-12	Bacillus nitratireducens BM02	NZ_CP047366.1	GenBank	Dissertation Table 1
+ring_order	strain	assembly_accession	source_database	
+1	Bacillus nitratireducens DE0336	NZ_VEKG00000000.1	GenBank	
+2	Bacillus nitratireducens DE0363	NZ_VEKC00000000.1	GenBank	
+3	Bacillus nitratireducens DE0364	NZ_VEKB00000000.1	GenBank	
+4	Bacillus nitratireducens HD-50	NZ_JARLXK000000000.1	GenBank	
+5	Bacillus nitratireducens JJ1048	NZ_JBANCC000000000.1	GenBank	
+6	Bacillus nitratireducens N4150	NZ_CP093844.1	GenBank	
+7	Bacillus nitratireducens NRS-319	NZ_JARTIK000000000.1	GenBank	
+8	Bacillus nitratireducens 112MF	NZ_FNRB00000000.1	GenBank	
+9	Bacillus nitratireducens 4049	NZ_JAUMJO000000000.1	GenBank	
+10	Bacillus nitratireducens ATCC6463	NZ_VKPW00000000	GenBank	
+11	Bacillus nitratireducens BD-32	NZ_JARLYH000000000.1	GenBank	
+12	Bacillus nitratireducens BM02	NZ_CP047366.1	GenBank	
 
