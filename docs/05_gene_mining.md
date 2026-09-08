@@ -5,7 +5,7 @@
 
 ## 5.1 Literature survey (2020–2025)
 
-Search **Google Scholar, PubMed and SciELO** for bacterial genes involved in **potassium and phosphate solubilisation** by PGPR. Record every candidate in `metadata/pgpr_gene_targets.tsv`; a gene name without a source sequence, organism and evidence reference is not a reproducible target.
+Search **Google Scholar, PubMed and SciELO** for bacterial genes involved in **potassium and phosphate solubilisation** by PGPR. Record every candidate in `metadata/pgpr_gene_targets.tsv`.
 
 ## 5.2 Reference sequences — UniProt
 
