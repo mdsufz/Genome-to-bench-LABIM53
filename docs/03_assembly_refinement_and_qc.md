@@ -16,8 +16,6 @@ java -jar medusa.jar \
   -v
 ```
 
-**Reported outcome:** 425 → **300 contigs**.
-
 ## 3.2 Reference-guided scaffolding & gap fill — RagTag v2.1
 
 ```bash
@@ -26,8 +24,6 @@ ragtag.py scaffold \
   results/medusa_LABIM53.fasta \
   -o results/ragtag_LABIM53
 ```
-
-**Reported outcome:** 300 → **276 contigs**.
 
 ## 3.3 Circular visualisation & gap analysis — Proksee / CGView → **Figure 1**
 
@@ -45,8 +41,7 @@ Remaining gaps were closed manually.
 - Run **PlasFlow** on the Galaxy web platform (https://usegalaxy.org) with the final contigs.
 - Output: a per-scaffold **predicted** class (chromosome-associated, plasmid-associated or unclassified) and taxonomic signal (Firmicutes, Proteobacteria or unclassified) → **Table 1**.
 - Treat these labels as classifier predictions, not as confirmation of replicon structure.
-- `tables/Table_1_PlasFlow_classifications.tsv` was extracted from the supplied manuscript and contains 34 rows (4 chromosome-labelled and 30 plasmid-labelled predictions; 5,669,186 bp). The Results text reports 36 scaffolds (5 chromosome-labelled and 31 plasmid-labelled; 5,671,654 bp), so two rows totalling 2,468 bp are absent from the manuscript table.
-- Because the original PlasFlow output is unavailable, retain the extracted table and this discrepancy statement. Do not manufacture the two missing rows or present either class count as a physical replicon count.
+- `The Results text reports 36 scaffolds (5 chromosome-labelled and 31 plasmid-labelled; 5,671,654 bp), so two rows totalling 2,468 bp are absent from the manuscript table.
 
 ## 3.6 Quality & completeness — QUAST + BUSCO v5.7.1
 
