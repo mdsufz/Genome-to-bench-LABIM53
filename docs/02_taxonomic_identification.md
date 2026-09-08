@@ -38,7 +38,7 @@ Produces the OrthoANI heatmap + hierarchical clustering used in **Figure 2A**.
 
 ## 2.4 Marker-gene phylogenies (16S rRNA + *gyrB*) → **Fig 2B / 2C**
 
-1. **Extract** 16S rRNA and *gyrB* sequences from the same set of genomes. Use identical FASTA identifiers for both markers and record the accessions in `metadata/accessions/marker_sequences.tsv`.
+1. **Extract** 16S rRNA and *gyrB* sequences from the same set of genomes. Use identical FASTA identifiers for both markers and record the accessions.
 2. **Align** each marker with MAFFT (online service used in the paper; CLI equivalent below):
    ```bash
    mafft --auto data/markers/16S.fasta > results/markers/16S.aln.fasta
@@ -66,8 +66,5 @@ Produces the OrthoANI heatmap + hierarchical clustering used in **Figure 2A**.
    → **Figure 2B**
 7. **Visualise/edit** with iTOL (v6–7) and FigTree v1.4.4.
 
-> Substitution model and MCMC settings must be verified against the original analysis before enabling MrBayes in `config/config.yaml`. Node values in Figure 2B are posterior probabilities; in Figure 2C, bootstrap support. Both figures must use the concatenated 16S + *gyrB* taxon-by-character matrix.
-
 ## 2.5 dDDH scope
-
-Digital DNA-DNA hybridisation (dDDH) is not documented by an archived input, method or output in this repository. It is therefore not part of the supported workflow and no dDDH result should be inferred from these files. Remove any dDDH claim from the manuscript Discussion unless the missing Methods, Results and output provenance are supplied together.
+need to be writed
