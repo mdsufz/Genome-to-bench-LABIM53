@@ -120,13 +120,6 @@ genome-to-bench-LABIM53/
 | Sequence retrieval | UniProt | — | web | UniProt Consortium, 2019 |
 | Gene confirmation | tBLASTn (NCBI) | — | web/CLI | Gertz et al., 2006 |
 
-> **Note on reproducibility scope.** The article's Methods section names the tools, versions and key parameters, but does not publish full command lines for every step. The scripts in `scripts/` are therefore *command templates* that implement the documented workflow through each tool's standard interface and the parameters recorded in `config/config.yaml`. Web and GUI steps (MEGA, PhyloSuite, Proksee, Galaxy/PlasFlow, iTOL, FigTree and CLC) are documented in `docs/`. The historical run outputs are not archived here; supplied manuscript assets and known limitations are recorded under `figures/`, `tables/` and `metadata/`.
-
-## Result verification status
-
-See [`EVIDENCE_LIMITATIONS.md`](EVIDENCE_LIMITATIONS.md) for the consolidated
-evidence inventory, discrepancies and suitable release wording.
-
 ---
 
 ## Quick start
