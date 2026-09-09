@@ -69,10 +69,9 @@ genome-to-bench-LABIM53/
 ├── environment.yml           ← conda environment with the CLI tools
 ├── CITATION.cff
 ├── LICENSE
-├── config/                   ← reusable paths, parameters and sample sheet
-├── metadata/                 ← accessions, PGPR targets and verification status
-├── figures/                  ← final figure provenance and manuscript assets
-├── tables/                   ← final table provenance and manuscript assets
+├── metadata/acessions                 ← ANI, Circular comparison and Pangenome accessions
+├── figures/                  ← final figures from manuscript
+├── tables/                   ← final tables from manuscript 
 ├── docs/                     ← detailed step-by-step for each stage
 │   ├── 00_overview.md
 │   ├── 01_preprocessing_and_assembly.md
@@ -88,7 +87,17 @@ genome-to-bench-LABIM53/
 │   ├── 04_pangenome_annotation.sh
 │   └── 05_gene_mining.sh
 ├── data/                     ← inputs (not tracked; see data/README.md)
-└── results/                  ← outputs (not tracked; see results/README.md)
+│   ├── reference_genomes/         # closest complete genome for scaffolding
+│    ├── B_nitratireducens_BM02.fasta
+│   ├── genomes_pangenome/         # 14 public B. nitratireducens genomes + LABIM53 (Fig 3A)
+│   ├── markers/                  # concatenated alignments and gene boundaries
+│    ├── LABIM53_gyrB_16S_concatenated.fasta
+│    ├── LABIM53_gyrB_16S_IQTREE_input.phy
+│    ├── LABIM53_gyrB_16S_partition_definitions.txt
+│    ├── LABIM53_16S_gyrB_alignment.nex
+│    └── LABIM53_16S_gyrB_alignment_with_charsets.nex
+│   ├── mined_genes/              # PGPR target proteins from UniProt
+│    ├── pgpr_targets.faa
 ```
 
 ---
@@ -150,6 +159,26 @@ See the per-stage guides in [`docs/`](docs/00_overview.md) for full details, inc
 If you use this workflow, please cite the article (see `CITATION.cff`) and the individual tools listed above.
 
 ## License
+MIT License
 
+Copyright (c) 2025 The Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 Released under the MIT License (see `LICENSE`).
 
