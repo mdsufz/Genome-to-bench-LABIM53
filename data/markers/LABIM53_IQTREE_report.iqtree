@@ -1,0 +1,301 @@
+IQ-TREE 2.2.0 COVID-edition built Jun  1 2022
+
+Input file name: D:/Documentos/Programas/PhyloSuite_v1.2.3_Win64/PhyloSuite/myWorkPlace/GenBank_File/files\IQtree_results\2025_04_26-14_17_08\concatenation.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (4970 replicates)
+Random seed number: 620334
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 48 sequences with 2947 nucleotide sites
+Number of constant sites: 2069 (= 70.207% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2069 (= 70.207% of all sites)
+Number of parsimony informative sites: 585
+Number of distinct site patterns: 768
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM2+R2
+
+Rate parameter R:
+
+  A-C: 1.8182
+  A-G: 9.6816
+  A-T: 1.8182
+  C-G: 1.0000
+  C-T: 9.6816
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A    -1.065    0.1455    0.7745    0.1455
+  C    0.1455        -1      0.08    0.7745
+  G    0.7745      0.08   -0.9345      0.08
+  T    0.1455    0.7745      0.08        -1
+
+Model of rate heterogeneity: FreeRate with 2 categories
+Site proportion and rates:  (0.8349,0.1652) (0.1651,5.221)
+
+ Category  Relative_rate  Proportion
+  1         0.1652         0.8349
+  2         5.221          0.1651
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -14890.7900 (s.e. 359.2357)
+Unconstrained log-likelihood (without tree): -14092.9286
+Number of free parameters (#branches + #model parameters): 97
+Akaike information criterion (AIC) score: 29975.5800
+Corrected Akaike information criterion (AICc) score: 29982.2532
+Bayesian information criterion (BIC) score: 30556.4686
+
+Total tree length (sum of branch lengths): 1.4052
+Sum of internal branch lengths: 0.5393 (38.3786% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Bacillus_subtilis_168' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%)
+
+                           +--Bacillus_53
+                        +--| (95.4/1/92)
+                        |  |  +--Bacillus_nitratireducens_ATCC6463
+                        |  +**| (0/0.334/74)
+                        |     +--Bacillus_nitratireducens_MCCC_1A00732_T
+                     +--| (99.8/1/100)
+                     |  +**Bacillus_nitratireducens_BM02
+                  +--| (98.7/1/100)
+                  |  |  +--Bacillus_proteolyticus_IMGN4
+                  |  +--| (94.1/1/98)
+                  |     +**Bacillus_proteolyticus_MCCC_1A00365_T
+               +--| (97.7/1/81)
+               |  |                 +--Bacillus_albusSXL388
+               |  |              +--| (100/1/100)
+               |  |              |  +--Bacillus_albus_MCCC_1A02146_T
+               |  |           +--| (100/1/100)
+               |  |           |  |     +**Bacillus_anthracis_A2084
+               |  |           |  |  +--| (99.1/1/100)
+               |  |           |  |  |  +**Bacillus_anthracis_ATCC_14578_T
+               |  |           |  +--| (95.7/1/97)
+               |  |           |     |           +--Bacillus_pacificus_MCCC_1A06182_T
+               |  |           |     |        +--| (92.7/1/99)
+               |  |           |     |        |  +**Bacillus_pacificusanQh4
+               |  |           |     |     +--| (99/1/100)
+               |  |           |     |     |  |  +--Bacillus_paranthracisBtC4
+               |  |           |     |     |  +--| (95.9/1/99)
+               |  |           |     |     |     +--Bacillus_paranthracis_MCCC_1A00395_T
+               |  |           |     |  +--| (73.8/0.825/88)
+               |  |           |     |  |  +--Bacillus_tropicus_MCCC_1A01406_T
+               |  |           |     +--| (84.6/0.904/92)
+               |  |           |        +--Bacillus_tropicusT36S23
+               |  |        +--| (100/1/99)
+               |  |        |  |  +--Bacillus_cereus_ATCC_14579_T
+               |  |        |  +--| (100/1/100)
+               |  |        |     +**Bacillus_cereus_QKG_2024
+               |  |     +--| (93.9/1/85)
+               |  |     |  +--Bacillus_sanguinis_BMLBC004_T
+               |  |  +--| (100/1/95)
+               |  |  |  |        +--Bacillus_mobilis_0711P9_1_T
+               |  |  |  |     +--| (99.6/1/100)
+               |  |  |  |     |  +--Bacillus_mobilis_KC15
+               |  |  |  |  +--| (99.1/1/100)
+               |  |  |  |  |  |  +--Bacillus_paramobilisILBB166
+               |  |  |  |  |  +--| (99.2/1/100)
+               |  |  |  |  |     +--Bacillus_paramobilis_BML_BC017_T
+               |  |  |  +--| (95.7/1/99)
+               |  |  |     |  +--Bacillus_wiedmanniiSR52
+               |  |  |     +--| (100/1/100)
+               |  |  |        +**Bacillus_wiedmannii_FSL_W8_0169_T
+               |  +--| (89.5/1/76)
+               |     +--Bacillus_paramycoides_JYZSD5
+            +--| (93.1/0.998/75)
+            |  |     +--Bacillus_thuringiensis_IAM_12077_T
+            |  |  +--| (99.8/1/100)
+            |  |  |  +--Bacillus_thuringiensis_MYBT18246
+            |  +--| (100/1/100)
+            |     |  +--Bacillus_toyonensisP18
+            |     +--| (99.7/1/100)
+            |        +--Bacillus_toyonensis_BCT_7112_T
+         +--| (99.9/1/98)
+         |  |     +--Bacillus_fungorum_17_SMS_01_T
+         |  |  +--| (100/1/100)
+         |  |  |  +--Bacillus_fungorum_FL122
+         |  +--| (40.8/0.951/59)
+         |     |  +**Bacillus_lutiFJ
+         |     +--| (100/1/100)
+         |        +--Bacillus_luti_MCCC_1A00359_T
+      +--| (97.7/1/67)
+      |  |        +--Bacillus_hominisSIN21
+      |  |     +--| (99.8/1/100)
+      |  |     |  +--Bacillus_hominis_BML_BC059_T
+      |  |  +--| (41.6/0.968/57)
+      |  |  |  +--Bacillus_paramycoides_MCCC_1A04098_T
+      |  +--| (99.1/1/89)
+      |     |  +--Bacillus_mycoides_ATCC_6462_T
+      |     +--| (100/1/100)
+      |        +--Bacillus_mycoides_WSBC10204
+   +--| (94.6/1/63)
+   |  |   +**Bacillus_gaemokensis_BL3_6_T
+   |  +---| (100/1/100)
+   |      +**Bacillus_gaemokensis_JCM15801
++--| (97.4/1/66)
+|  |     +**Bacillus_bingmayongensis_FJAT_13831_T
+|  |  +--| (98.9/1/100)
+|  |  |  +**Bacillus_bingmayongensis_P86
+|  +--| (98.3/1/100)
+|     |  +**Bacillus_pseudomycoides_BTZ
+|     +--| (98.2/1/100)
+|        +--Bacillus_pseudomycoides_NRRL_B_617_T
+|
+|    +**Bacillus_cytotoxicus_CH_39
++----| (100/1/100)
+|    +--Bacillus_cytotoxicus_NVH_391_98_T
+|
++-----------------------------------------------------------Bacillus_subtilis_168
+
+Tree in newick format:
+
+((((((((((Bacillus_53:0.0006795293,(Bacillus_nitratireducens_ATCC6463:0.0006971051,Bacillus_nitratireducens_MCCC_1A00732_T:0.0016925116)0/0.334/74:0.0000011931)95.4/1/92:0.0023797141,Bacillus_nitratireducens_BM02:0.0000011931)99.8/1/100:0.0052052101,(Bacillus_proteolyticus_IMGN4:0.0007565084,Bacillus_proteolyticus_MCCC_1A00365_T:0.0002596447)94.1/1/98:0.0025970871)98.7/1/100:0.0061296359,((((((Bacillus_albusSXL388:0.0014108057,Bacillus_albus_MCCC_1A02146_T:0.0009732479)100/1/100:0.0125642702,((Bacillus_anthracis_A2084:0.0000011931,Bacillus_anthracis_ATCC_14578_T:0.0000011931)99.1/1/100:0.0081715923,((((Bacillus_pacificus_MCCC_1A06182_T:0.0027484517,Bacillus_pacificusanQh4:0.0003235206)92.7/1/99:0.0017079204,(Bacillus_paranthracisBtC4:0.0006941219,Bacillus_paranthracis_MCCC_1A00395_T:0.0027258902)95.9/1/99:0.0018039758)99/1/100:0.0051568294,Bacillus_tropicus_MCCC_1A01406_T:0.0026840060)73.8/0.825/88:0.0006510597,Bacillus_tropicusT36S23:0.0055207447)84.6/0.904/92:0.0026348169)95.7/1/97:0.0075550006)100/1/100:0.0276121728,(Bacillus_cereus_ATCC_14579_T:0.0006750196,Bacillus_cereus_QKG_2024:0.0000027706)100/1/100:0.0319288079)100/1/99:0.0194792807,Bacillus_sanguinis_BMLBC004_T:0.0083042542)93.9/1/85:0.0047164345,(((Bacillus_mobilis_0711P9_1_T:0.0072272999,Bacillus_mobilis_KC15:0.0014201266)99.6/1/100:0.0062004421,(Bacillus_paramobilisILBB166:0.0003717212,Bacillus_paramobilis_BML_BC017_T:0.0013279618)99.2/1/100:0.0051276761)99.1/1/100:0.0058407611,(Bacillus_wiedmanniiSR52:0.0003475335,Bacillus_wiedmannii_FSL_W8_0169_T:0.0003298711)100/1/100:0.0090232165)95.7/1/99:0.0041839284)100/1/95:0.0180395575,Bacillus_paramycoides_JYZSD5:0.0084930681)89.5/1/76:0.0051102879)97.7/1/81:0.0081737910,((Bacillus_thuringiensis_IAM_12077_T:0.0011226578,Bacillus_thuringiensis_MYBT18246:0.0005781138)99.8/1/100:0.0100562661,(Bacillus_toyonensisP18:0.0020050514,Bacillus_toyonensis_BCT_7112_T:0.0003896723)99.7/1/100:0.0094024106)100/1/100:0.0139107853)93.1/0.998/75:0.0055132276,((Bacillus_fungorum_17_SMS_01_T:0.0021173275,Bacillus_fungorum_FL122:0.0037304389)100/1/100:0.0314478622,(Bacillus_lutiFJ:0.0003321442,Bacillus_luti_MCCC_1A00359_T:0.0013668917)100/1/100:0.0214964262)40.8/0.951/59:0.0075192274)99.9/1/98:0.0230853189,(((Bacillus_hominisSIN21:0.0046809718,Bacillus_hominis_BML_BC059_T:0.0055500061)99.8/1/100:0.0122750658,Bacillus_paramycoides_MCCC_1A04098_T:0.0311099443)41.6/0.968/57:0.0058185687,(Bacillus_mycoides_ATCC_6462_T:0.0016381692,Bacillus_mycoides_WSBC10204:0.0014242022)100/1/100:0.0144413243)99.1/1/89:0.0163522663)97.7/1/67:0.0232283745,(Bacillus_gaemokensis_BL3_6_T:0.0000011931,Bacillus_gaemokensis_JCM15801:0.0000011931)100/1/100:0.0509616937)94.6/1/63:0.0207445338,((Bacillus_bingmayongensis_FJAT_13831_T:0.0000011931,Bacillus_bingmayongensis_P86:0.0000011931)98.9/1/100:0.0198512504,(Bacillus_pseudomycoides_BTZ:0.0000011931,Bacillus_pseudomycoides_NRRL_B_617_T:0.0027183125)98.2/1/100:0.0168575520)98.3/1/100:0.0203603451)97.4/1/66:0.0325836992,(Bacillus_cytotoxicus_CH_39:0.0003122753,Bacillus_cytotoxicus_NVH_391_98_T:0.0017295267)100/1/100:0.0603953042,Bacillus_subtilis_168:0.6764619257);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 4970 bootstrap trees
+Log-likelihood of consensus tree: -14890.807825
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                           +--Bacillus_53
+                        +--| (92)
+                        |  |  +--Bacillus_nitratireducens_ATCC6463
+                        |  +--| (74)
+                        |     +--Bacillus_nitratireducens_MCCC_1A00732_T
+                     +--| (100)
+                     |  +--Bacillus_nitratireducens_BM02
+                  +--| (100)
+                  |  |  +--Bacillus_proteolyticus_IMGN4
+                  |  +--| (98)
+                  |     +--Bacillus_proteolyticus_MCCC_1A00365_T
+               +--| (81)
+               |  |                 +--Bacillus_albusSXL388
+               |  |              +--| (100)
+               |  |              |  +--Bacillus_albus_MCCC_1A02146_T
+               |  |           +--| (100)
+               |  |           |  |     +--Bacillus_anthracis_A2084
+               |  |           |  |  +--| (100)
+               |  |           |  |  |  +--Bacillus_anthracis_ATCC_14578_T
+               |  |           |  +--| (97)
+               |  |           |     |           +--Bacillus_pacificus_MCCC_1A06182_T
+               |  |           |     |        +--| (99)
+               |  |           |     |        |  +--Bacillus_pacificusanQh4
+               |  |           |     |     +--| (100)
+               |  |           |     |     |  |  +--Bacillus_paranthracisBtC4
+               |  |           |     |     |  +--| (99)
+               |  |           |     |     |     +--Bacillus_paranthracis_MCCC_1A00395_T
+               |  |           |     |  +--| (88)
+               |  |           |     |  |  +--Bacillus_tropicus_MCCC_1A01406_T
+               |  |           |     +--| (92)
+               |  |           |        +--Bacillus_tropicusT36S23
+               |  |        +--| (99)
+               |  |        |  |  +--Bacillus_cereus_ATCC_14579_T
+               |  |        |  +--| (100)
+               |  |        |     +--Bacillus_cereus_QKG_2024
+               |  |     +--| (85)
+               |  |     |  +--Bacillus_sanguinis_BMLBC004_T
+               |  |  +--| (95)
+               |  |  |  |        +--Bacillus_mobilis_0711P9_1_T
+               |  |  |  |     +--| (100)
+               |  |  |  |     |  +--Bacillus_mobilis_KC15
+               |  |  |  |  +--| (100)
+               |  |  |  |  |  |  +--Bacillus_paramobilisILBB166
+               |  |  |  |  |  +--| (100)
+               |  |  |  |  |     +--Bacillus_paramobilis_BML_BC017_T
+               |  |  |  +--| (99)
+               |  |  |     |  +--Bacillus_wiedmanniiSR52
+               |  |  |     +--| (100)
+               |  |  |        +--Bacillus_wiedmannii_FSL_W8_0169_T
+               |  +--| (76)
+               |     +--Bacillus_paramycoides_JYZSD5
+            +--| (75)
+            |  |     +--Bacillus_thuringiensis_IAM_12077_T
+            |  |  +--| (100)
+            |  |  |  +--Bacillus_thuringiensis_MYBT18246
+            |  +--| (100)
+            |     |  +--Bacillus_toyonensisP18
+            |     +--| (100)
+            |        +--Bacillus_toyonensis_BCT_7112_T
+         +--| (98)
+         |  |     +--Bacillus_fungorum_17_SMS_01_T
+         |  |  +--| (100)
+         |  |  |  +--Bacillus_fungorum_FL122
+         |  +--| (59)
+         |     |  +--Bacillus_lutiFJ
+         |     +--| (100)
+         |        +--Bacillus_luti_MCCC_1A00359_T
+      +--| (67)
+      |  |        +--Bacillus_hominisSIN21
+      |  |     +--| (100)
+      |  |     |  +--Bacillus_hominis_BML_BC059_T
+      |  |  +--| (57)
+      |  |  |  +--Bacillus_paramycoides_MCCC_1A04098_T
+      |  +--| (89)
+      |     |  +--Bacillus_mycoides_ATCC_6462_T
+      |     +--| (100)
+      |        +--Bacillus_mycoides_WSBC10204
+   +--| (63)
+   |  |   +--Bacillus_gaemokensis_BL3_6_T
+   |  +---| (100)
+   |      +--Bacillus_gaemokensis_JCM15801
++--| (66)
+|  |     +--Bacillus_bingmayongensis_FJAT_13831_T
+|  |  +--| (100)
+|  |  |  +--Bacillus_bingmayongensis_P86
+|  +--| (100)
+|     |  +--Bacillus_pseudomycoides_BTZ
+|     +--| (100)
+|        +--Bacillus_pseudomycoides_NRRL_B_617_T
+|
+|    +--Bacillus_cytotoxicus_CH_39
++----| (100)
+|    +--Bacillus_cytotoxicus_NVH_391_98_T
+|
++----------------------------------------------------------Bacillus_subtilis_168
+
+
+Consensus tree in newick format: 
+
+((((((((((Bacillus_53:0.0006793186,(Bacillus_nitratireducens_ATCC6463:0.0006967466,Bacillus_nitratireducens_MCCC_1A00732_T:0.0016910940)74:0.0000023269)92:0.0023784433,Bacillus_nitratireducens_BM02:0.0000029890)100:0.0052041763,(Bacillus_proteolyticus_IMGN4:0.0007541414,Bacillus_proteolyticus_MCCC_1A00365_T:0.0002601946)98:0.0025966504)100:0.0061288634,((((((Bacillus_albusSXL388:0.0014098715,Bacillus_albus_MCCC_1A02146_T:0.0009727706)100:0.0125605941,((Bacillus_anthracis_A2084:0.0000021872,Bacillus_anthracis_ATCC_14578_T:0.0000023222)100:0.0081676330,((((Bacillus_pacificus_MCCC_1A06182_T:0.0027465404,Bacillus_pacificusanQh4:0.0003225423)99:0.0017065603,(Bacillus_paranthracisBtC4:0.0006931505,Bacillus_paranthracis_MCCC_1A00395_T:0.0027239867)99:0.0018033981)100:0.0051520474,Bacillus_tropicus_MCCC_1A01406_T:0.0026831124)88:0.0006502099,Bacillus_tropicusT36S23:0.0055195488)92:0.0026391614)97:0.0075560330)100:0.0276104990,(Bacillus_cereus_ATCC_14579_T:0.0006743540,Bacillus_cereus_QKG_2024:0.0000023222)100:0.0319257473)99:0.0194757335,Bacillus_sanguinis_BMLBC004_T:0.0083041536)85:0.0047157666,(((Bacillus_mobilis_0711P9_1_T:0.0072263040,Bacillus_mobilis_KC15:0.0014197586)100:0.0061988740,(Bacillus_paramobilisILBB166:0.0003710855,Bacillus_paramobilis_BML_BC017_T:0.0013279355)100:0.0051277922)100:0.0058399099,(Bacillus_wiedmanniiSR52:0.0003456963,Bacillus_wiedmannii_FSL_W8_0169_T:0.0003280521)100:0.0090222675)99:0.0041834503)95:0.0180387137,Bacillus_paramycoides_JYZSD5:0.0084913538)76:0.0051089105)81:0.0081745114,((Bacillus_thuringiensis_IAM_12077_T:0.0011226465,Bacillus_thuringiensis_MYBT18246:0.0005765195)100:0.0100551463,(Bacillus_toyonensisP18:0.0020040817,Bacillus_toyonensis_BCT_7112_T:0.0003892590)100:0.0094023812)100:0.0139081464)75:0.0055143686,((Bacillus_fungorum_17_SMS_01_T:0.0021193686,Bacillus_fungorum_FL122:0.0037289583)100:0.0314438695,(Bacillus_lutiFJ:0.0003312544,Bacillus_luti_MCCC_1A00359_T:0.0013667213)100:0.0214960006)59:0.0075174761)98:0.0230934722,(((Bacillus_hominisSIN21:0.0046803873,Bacillus_hominis_BML_BC059_T:0.0055488955)100:0.0122739057,Bacillus_paramycoides_MCCC_1A04098_T:0.0311079789)57:0.0058184618,(Bacillus_mycoides_ATCC_6462_T:0.0016395754,Bacillus_mycoides_WSBC10204:0.0014229678)100:0.0144399804)89:0.0163461512)67:0.0232269517,(Bacillus_gaemokensis_BL3_6_T:0.0000023222,Bacillus_gaemokensis_JCM15801:0.0000023222)100:0.0509533165)63:0.0207458455,((Bacillus_bingmayongensis_FJAT_13831_T:0.0000023247,Bacillus_bingmayongensis_P86:0.0000023222)100:0.0198518625,(Bacillus_pseudomycoides_BTZ:0.0000023222,Bacillus_pseudomycoides_NRRL_B_617_T:0.0027172836)100:0.0168546158)100:0.0203637320)66:0.0325753142,(Bacillus_cytotoxicus_CH_39:0.0003162142,Bacillus_cytotoxicus_NVH_391_98_T:0.0017258159)100:0.0603939649,Bacillus_subtilis_168:0.6764325953);
+
+TIME STAMP
+----------
+
+Date and time: Sat Apr 26 14:18:16 2025
+Total CPU time used: 130.015625 seconds (0h:2m:10s)
+Total wall-clock time used: 66.8387452 seconds (0h:1m:6s)
+

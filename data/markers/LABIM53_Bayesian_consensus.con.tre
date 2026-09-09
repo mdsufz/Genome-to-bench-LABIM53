@@ -1,0 +1,115 @@
+#NEXUS
+[ID: 3044107110]
+begin taxa;
+	dimensions ntax=48;
+	taxlabels
+		Bacillus_53
+		Bacillus_albus_MCCC_1A02146_T
+		Bacillus_albusSXL388
+		Bacillus_anthracis_A2084
+		Bacillus_anthracis_ATCC_14578_T
+		Bacillus_bingmayongensis_FJAT_13831_T
+		Bacillus_bingmayongensis_P86
+		Bacillus_cereus_ATCC_14579_T
+		Bacillus_cereus_QKG_2024
+		Bacillus_cytotoxicus_CH_39
+		Bacillus_cytotoxicus_NVH_391_98_T
+		Bacillus_fungorum_17_SMS_01_T
+		Bacillus_fungorum_FL122
+		Bacillus_gaemokensis_BL3_6_T
+		Bacillus_gaemokensis_JCM15801
+		Bacillus_hominis_BML_BC059_T
+		Bacillus_hominisSIN21
+		Bacillus_luti_MCCC_1A00359_T
+		Bacillus_lutiFJ
+		Bacillus_mobilis_0711P9_1_T
+		Bacillus_mobilis_KC15
+		Bacillus_mycoides_ATCC_6462_T
+		Bacillus_mycoides_WSBC10204
+		Bacillus_nitratireducens_ATCC6463
+		Bacillus_nitratireducens_BM02
+		Bacillus_nitratireducens_MCCC_1A00732_T
+		Bacillus_pacificus_MCCC_1A06182_T
+		Bacillus_pacificusanQh4
+		Bacillus_paramobilis_BML_BC017_T
+		Bacillus_paramobilisILBB166
+		Bacillus_paramycoides_JYZSD5
+		Bacillus_paramycoides_MCCC_1A04098_T
+		Bacillus_paranthracis_MCCC_1A00395_T
+		Bacillus_paranthracisBtC4
+		Bacillus_proteolyticus_IMGN4
+		Bacillus_proteolyticus_MCCC_1A00365_T
+		Bacillus_pseudomycoides_BTZ
+		Bacillus_pseudomycoides_NRRL_B_617_T
+		Bacillus_sanguinis_BMLBC004_T
+		Bacillus_subtilis_168
+		Bacillus_thuringiensis_IAM_12077_T
+		Bacillus_thuringiensis_MYBT18246
+		Bacillus_toyonensis_BCT_7112_T
+		Bacillus_toyonensisP18
+		Bacillus_tropicus_MCCC_1A01406_T
+		Bacillus_tropicusT36S23
+		Bacillus_wiedmannii_FSL_W8_0169_T
+		Bacillus_wiedmanniiSR52
+		;
+end;
+begin trees;
+	translate
+		1	Bacillus_53,
+		2	Bacillus_albus_MCCC_1A02146_T,
+		3	Bacillus_albusSXL388,
+		4	Bacillus_anthracis_A2084,
+		5	Bacillus_anthracis_ATCC_14578_T,
+		6	Bacillus_bingmayongensis_FJAT_13831_T,
+		7	Bacillus_bingmayongensis_P86,
+		8	Bacillus_cereus_ATCC_14579_T,
+		9	Bacillus_cereus_QKG_2024,
+		10	Bacillus_cytotoxicus_CH_39,
+		11	Bacillus_cytotoxicus_NVH_391_98_T,
+		12	Bacillus_fungorum_17_SMS_01_T,
+		13	Bacillus_fungorum_FL122,
+		14	Bacillus_gaemokensis_BL3_6_T,
+		15	Bacillus_gaemokensis_JCM15801,
+		16	Bacillus_hominis_BML_BC059_T,
+		17	Bacillus_hominisSIN21,
+		18	Bacillus_luti_MCCC_1A00359_T,
+		19	Bacillus_lutiFJ,
+		20	Bacillus_mobilis_0711P9_1_T,
+		21	Bacillus_mobilis_KC15,
+		22	Bacillus_mycoides_ATCC_6462_T,
+		23	Bacillus_mycoides_WSBC10204,
+		24	Bacillus_nitratireducens_ATCC6463,
+		25	Bacillus_nitratireducens_BM02,
+		26	Bacillus_nitratireducens_MCCC_1A00732_T,
+		27	Bacillus_pacificus_MCCC_1A06182_T,
+		28	Bacillus_pacificusanQh4,
+		29	Bacillus_paramobilis_BML_BC017_T,
+		30	Bacillus_paramobilisILBB166,
+		31	Bacillus_paramycoides_JYZSD5,
+		32	Bacillus_paramycoides_MCCC_1A04098_T,
+		33	Bacillus_paranthracis_MCCC_1A00395_T,
+		34	Bacillus_paranthracisBtC4,
+		35	Bacillus_proteolyticus_IMGN4,
+		36	Bacillus_proteolyticus_MCCC_1A00365_T,
+		37	Bacillus_pseudomycoides_BTZ,
+		38	Bacillus_pseudomycoides_NRRL_B_617_T,
+		39	Bacillus_sanguinis_BMLBC004_T,
+		40	Bacillus_subtilis_168,
+		41	Bacillus_thuringiensis_IAM_12077_T,
+		42	Bacillus_thuringiensis_MYBT18246,
+		43	Bacillus_toyonensis_BCT_7112_T,
+		44	Bacillus_toyonensisP18,
+		45	Bacillus_tropicus_MCCC_1A01406_T,
+		46	Bacillus_tropicusT36S23,
+		47	Bacillus_wiedmannii_FSL_W8_0169_T,
+		48	Bacillus_wiedmanniiSR52
+		;
+   [Note: This tree contains information on the topology, 
+          branch lengths (if present), and the probability
+          of the partition indicated by the branch.]
+   tree con_50_majrule = (40:2.318539e-001,(10:6.668902e-004,11:1.623676e-003)1.000:3.845088e-002,((((((((((1:5.490975e-004,(24:5.501891e-004,26:1.288302e-003)0.591:3.080204e-004)0.955:1.685308e-003,25:3.295491e-004)0.955:4.238163e-003,(35:5.345602e-004,36:6.220644e-004)1.000:2.182913e-003)0.955:5.090333e-003,((((((2:1.274293e-003,3:1.578031e-003)1.000:9.666409e-003,((4:4.943847e-004,5:2.447506e-004)1.000:6.304108e-003,((((27:1.909911e-003,28:3.608259e-004)1.000:1.586478e-003,(33:2.093541e-003,34:7.221658e-004)1.000:1.654719e-003)1.000:4.639864e-003,45:2.332394e-003)0.864:9.007105e-004,46:4.158395e-003)0.955:2.636932e-003)1.000:7.056611e-003)1.000:1.757945e-002,(8:6.211178e-004,9:1.631426e-004)1.000:2.474857e-002)1.000:1.397668e-002,39:6.963622e-003)1.000:3.836018e-003,(((20:5.289211e-003,21:1.520325e-003)1.000:5.140974e-003,(29:1.187528e-003,30:6.473573e-004)1.000:4.416535e-003)1.000:4.610917e-003,(47:5.134557e-004,48:4.580625e-004)1.000:7.274741e-003)1.000:3.540333e-003)1.000:1.398187e-002,31:6.182321e-003)1.000:4.027616e-003)0.955:6.129303e-003,((41:1.449310e-003,42:5.553009e-004)1.000:9.184830e-003,(43:4.050106e-004,44:1.785897e-003)1.000:7.577670e-003)1.000:9.909225e-003)0.955:5.784450e-003,(18:1.351537e-003,19:4.865935e-004)1.000:1.781925e-002)0.773:6.766163e-003,(12:2.771515e-003,13:2.849253e-003)1.000:2.037989e-002)0.955:1.428353e-002,(((16:4.507453e-003,17:3.852141e-003)1.000:9.273141e-003,(22:1.250193e-003,23:1.141089e-003)1.000:1.124036e-002)0.682:5.971498e-003,32:2.051275e-002)1.000:1.255886e-002)0.955:1.528687e-002,(14:1.464399e-004,15:2.271166e-004)1.000:3.647675e-002)0.955:1.408682e-002,((6:3.757639e-004,7:5.675052e-004)1.000:1.041176e-002,(37:2.387890e-004,38:2.641492e-003)1.000:1.412334e-002)1.000:1.322205e-002)0.955:2.080028e-002);
+
+   [Note: This tree contains information only on the topology
+          and branch lengths (median of the posterior probability density).]
+   tree con_50_majrule = (40:2.318539e-001,(10:6.668902e-004,11:1.623676e-003):3.845088e-002,((((((((((1:5.490975e-004,(24:5.501891e-004,26:1.288302e-003):3.080204e-004):1.685308e-003,25:3.295491e-004):4.238163e-003,(35:5.345602e-004,36:6.220644e-004):2.182913e-003):5.090333e-003,((((((2:1.274293e-003,3:1.578031e-003):9.666409e-003,((4:4.943847e-004,5:2.447506e-004):6.304108e-003,((((27:1.909911e-003,28:3.608259e-004):1.586478e-003,(33:2.093541e-003,34:7.221658e-004):1.654719e-003):4.639864e-003,45:2.332394e-003):9.007105e-004,46:4.158395e-003):2.636932e-003):7.056611e-003):1.757945e-002,(8:6.211178e-004,9:1.631426e-004):2.474857e-002):1.397668e-002,39:6.963622e-003):3.836018e-003,(((20:5.289211e-003,21:1.520325e-003):5.140974e-003,(29:1.187528e-003,30:6.473573e-004):4.416535e-003):4.610917e-003,(47:5.134557e-004,48:4.580625e-004):7.274741e-003):3.540333e-003):1.398187e-002,31:6.182321e-003):4.027616e-003):6.129303e-003,((41:1.449310e-003,42:5.553009e-004):9.184830e-003,(43:4.050106e-004,44:1.785897e-003):7.577670e-003):9.909225e-003):5.784450e-003,(18:1.351537e-003,19:4.865935e-004):1.781925e-002):6.766163e-003,(12:2.771515e-003,13:2.849253e-003):2.037989e-002):1.428353e-002,(((16:4.507453e-003,17:3.852141e-003):9.273141e-003,(22:1.250193e-003,23:1.141089e-003):1.124036e-002):5.971498e-003,32:2.051275e-002):1.255886e-002):1.528687e-002,(14:1.464399e-004,15:2.271166e-004):3.647675e-002):1.408682e-002,((6:3.757639e-004,7:5.675052e-004):1.041176e-002,(37:2.387890e-004,38:2.641492e-003):1.412334e-002):1.322205e-002):2.080028e-002);
+end;

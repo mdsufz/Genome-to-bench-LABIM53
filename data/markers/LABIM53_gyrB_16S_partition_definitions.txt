@@ -1,0 +1,25 @@
+***partitionfinder style***
+gyrB_CLADOnitratL53_ed=1-1926;
+16S_CLADOnitratL53_ed=1927-2947;
+
+***codon style***
+
+***bayes style***
+charset gyrB_CLADOnitratL53_ed=1-1926;
+charset 16S_CLADOnitratL53_ed=1927-2947;
+partition Names = 2:gyrB_CLADOnitratL53_ed,16S_CLADOnitratL53_ed;
+set partition=Names;
+
+***bayes codon style***
+
+***IQ-TREE style***
+#nexus
+begin sets;
+	charset gyrB_CLADOnitratL53_ed=1-1926;
+	charset 16S_CLADOnitratL53_ed=1927-2947;
+end;
+
+***IQ-TREE codon style***
+#nexus
+begin sets;
+end;
