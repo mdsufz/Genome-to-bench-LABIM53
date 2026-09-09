@@ -2,9 +2,6 @@
 
 ```
 data/
-├── reads/                     # paired-end Illumina reads (BioProject PRJNA1114765)
-│   ├── LABIM53_R1.fastq.gz
-│   └── LABIM53_R2.fastq.gz
 ├── reference_genomes/         # closest complete genome for scaffolding
 │   └── B_nitratireducens_BM02.fasta
 ├── genomes_cereus_group/      # B. cereus-group genomes for ANIclustermap (Fig 2A)
