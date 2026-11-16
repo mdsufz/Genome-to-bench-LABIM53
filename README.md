@@ -45,7 +45,7 @@ Raw reads (Illumina MiSeq)
         ▼
    Comparative genomics
         │  Prokka v1.14.6 (annotation)
-        │  Roary (pan-genome, 14 public + LABIM53)                  → Fig 3A
+        │  Roary (pan-genome, 13 public + LABIM53)                  → Fig 3A
         │  COGclassifier (functional categories)                  → Fig 3B
         ▼
    Gene mining for PGPR traits
@@ -89,7 +89,7 @@ genome-to-bench-LABIM53/
 ├── data/                     ← inputs (not tracked; see data/README.md)
 │   ├── reference_genomes/         # closest complete genome for scaffolding
 │    ├── B_nitratireducens_BM02.fasta
-│   ├── genomes_pangenome/         # 14 public B. nitratireducens genomes + LABIM53 (Fig 3A)
+│   ├── genomes_pangenome/         # 13 public B. nitratireducens genomes + LABIM53 (Fig 3A)
 │   ├── markers/                  # concatenated alignments and gene boundaries
 │    ├── LABIM53_gyrB_16S_concatenated.fasta
 │    ├── LABIM53_gyrB_16S_IQTREE_input.phy
