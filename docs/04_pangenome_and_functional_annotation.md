@@ -16,7 +16,7 @@ for g in data/genomes_pangenome/*.fasta; do
 done
 ```
 
-**Reported outcome (LABIM53):** 5,718 CDS, 5 rRNA, 42 tRNA, 1 tmRNA.
+**Reported outcome (LABIM53):** 5,718 CDS, 3 rRNA, 42 tRNA, 1 tmRNA.
 
 ## 4.2 Pan-genome — Roary → **Fig 3A**
 
