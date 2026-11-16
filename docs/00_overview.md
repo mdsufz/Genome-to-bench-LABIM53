@@ -17,7 +17,7 @@ The stages are:
 - Reference and comparison genomes from GenBank:
   - the closest complete genome for scaffolding (*B. nitratireducens* BM02),
   - 12 *B. nitratireducens* genomes for the circular comparison (Fig 1),
-  - 14 public *B. nitratireducens* genomes for the pan-genome (Fig 3A),
+  - 13 public *B. nitratireducens* genomes for the pan-genome (Fig 3A),
   - *B. cereus* group genomes for ANI clustering (Fig 2A),
   - 16S rRNA and *gyrB* sequences extracted from the genomes (Fig 2B/2C).
 
