@@ -5,7 +5,7 @@
 
 ## 4.1 Annotation — Prokka v1.14.6
 
-Annotate LABIM53 **and** the 14 public *B. nitratireducens* genomes consistently (Roary needs GFF3 from the same annotator). Record the exact assembly accessions in `metadata/accessions/pangenome_genomes.tsv`.
+Annotate LABIM53 **and** the 13 public *B. nitratireducens* genomes consistently (Roary needs GFF3 from the same annotator). Record the exact assembly accessions in `metadata/accessions/pangenome_genomes.tsv`.
 
 ```bash
 for g in data/genomes_pangenome/*.fasta; do
@@ -26,9 +26,9 @@ roary -e --mafft -p <threads> \
   results/prokka/*/*.gff
 ```
 
-**Results-text outcome (15 genomes = 14 public + LABIM53):** 12,044 gene
-clusters - 3,513 core, 3,558 accessory and 4,976 strain-specific. These
-components sum to 12,044.
+**Results-text outcome (14 genomes = 13 public + LABIM53):** 11,769 gene
+clusters - 3,520 core, 3,547 shell and 4,702 cloud. These
+components sum to 11,769.
 
 The command below is an optional future consistency check if a regenerated or
 historical `gene_presence_absence.csv` becomes available; the original output
