@@ -19,7 +19,7 @@ The stages are:
   - 12 *B. nitratireducens* genomes for the circular comparison (Fig 1),
   - 13 public *B. nitratireducens* genomes for the pan-genome + LABIM53 (Fig 3A),
   - *B. cereus* group genomes for ANI clustering (Fig 2A),
-  - 16s rRNA and *gyrB* sequences extracted from the genomes (Fig 2B/2C).
+  - 16S rRNA and *gyrB* sequences extracted from the genomes (Fig 2B/2C).
 
 ## Figure ↔ step map
 
